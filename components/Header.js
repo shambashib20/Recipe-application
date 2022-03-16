@@ -4,18 +4,10 @@ function Header() {
     return (
 
         <div>
-            <h1 className='title'>
+            <h1 className={headerStyles.title}>
                 <span>WebDev</span> News
             </h1>
-            <style jsx>
-                {`
-                   .title {
-                      color: red;
-                   }
 
-                `}
-
-            </style>
         </div>
     )
 }
